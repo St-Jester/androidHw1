@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/file"
+    android:title="file" >
+    <!-- "file" submenu -->
+    <menu>
+        <item android:id="@+id/create_new"
+            android:title="create_new" />
+        <item android:id="@+id/open"
+            android:title="open" />
+    </menu>
+</item>
+
+    <item
+        android:id="@+id/exit"
+        android:title="hell" />
+    <item
+        android:id="@+id/help"
+        android:title="help" />
+    <!-- "file" submenu -->
+
+
+</menu>
